@@ -1,0 +1,9 @@
+baseURL = ""
+languageCode = "en-us"
+title = "César Laiton's portfolio"
+disableKinds = ["taxonomy", "term"]
+enableRobotsTXT = true
+[params]
+  description = "César Laiton's portfolio."
+  images = ["/svg/portfolio.svg"]
+  title = "César Laiton's portfolio"

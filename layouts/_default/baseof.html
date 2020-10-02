@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html class="h-full" lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body class="h-full flex flex-col bg-gray-200 text-gray-700">
+
+    {{ partial "header.html" }}
+
+    <main class="px-1 w-full max-w-screen-xl mx-auto flex-grow">
+
+      {{ block "main" . }}{{ end }}
+
+    </main>
+
+    {{ partial "footer.html" }}
+
+  </body>
+</html>

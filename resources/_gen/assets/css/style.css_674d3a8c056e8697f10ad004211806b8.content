@@ -676,6 +676,12 @@ body {
   background-color: rgba(198, 246, 213, var(--bg-opacity));
 }
 
+.bg-green-700 {
+  --bg-opacity: 1;
+  background-color: #2f855a;
+  background-color: rgba(47, 133, 90, var(--bg-opacity));
+}
+
 .bg-teal-200 {
   --bg-opacity: 1;
   background-color: #b2f5ea;
@@ -686,6 +692,12 @@ body {
   --bg-opacity: 1;
   background-color: #bee3f8;
   background-color: rgba(190, 227, 248, var(--bg-opacity));
+}
+
+.bg-blue-700 {
+  --bg-opacity: 1;
+  background-color: #2b6cb0;
+  background-color: rgba(43, 108, 176, var(--bg-opacity));
 }
 
 .bg-purple-200 {

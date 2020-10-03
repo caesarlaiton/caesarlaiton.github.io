@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>César Laiton&#39;s portfolio</title>
+    <link>https://caesarlaiton.github.io/</link>
+    <description>Recent content on César Laiton&#39;s portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://caesarlaiton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Castillete</title>
+      <link></link>
+      <pubDate>Thu, 01 Oct 2020 15:37:11 -0400</pubDate>
+      
+      <guid></guid>
+      <description>Showcase of Venezuelan painter Armando Reverón.</description>
+    </item>
+    
+    <item>
+      <title>Arenas</title>
+      <link></link>
+      <pubDate>Thu, 01 Oct 2020 15:25:26 -0400</pubDate>
+      
+      <guid></guid>
+      <description>Writings of Cuban author Reinaldo Arenas.</description>
+    </item>
+    
+    <item>
+      <title>Recursiō</title>
+      <link></link>
+      <pubDate>Thu, 01 Oct 2020 15:10:17 -0400</pubDate>
+      
+      <guid></guid>
+      <description>César Laiton&amp;rsquo;s portfolio.</description>
+    </item>
+    
+    <item>
+      <title>Docente</title>
+      <link></link>
+      <pubDate>Thu, 01 Oct 2020 14:36:31 -0400</pubDate>
+      
+      <guid></guid>
+      <description>Teacher&amp;rsquo;s business card.</description>
+    </item>
+    
+    <item>
+      <title>Enfermera</title>
+      <link></link>
+      <pubDate>Thu, 01 Oct 2020 14:18:29 -0400</pubDate>
+      
+      <guid></guid>
+      <description>Nurse&amp;rsquo;s business card.</description>
+    </item>
+    
+  </channel>
+</rss>

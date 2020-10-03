@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hugo": "hugo --gc --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caesarlaiton/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caesarlaiton/portfolio/issues"
+  },
+  "homepage": "https://github.com/caesarlaiton/portfolio#readme",
+  "devDependencies": {
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
+  }
+}

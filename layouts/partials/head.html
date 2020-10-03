@@ -2,9 +2,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Site.Title }}</title>
-  <meta name="description" content="César Laiton's portfolio.">
+  <meta name="description" content="{{ .Site.Params.description }}">
 
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  {{ $style := resources.Get "style.css" | resources.PostCSS }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/google_analytics.html" . }}
 
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Home.RelPermalink }}apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.Home.RelPermalink }}favicon-32x32.png">

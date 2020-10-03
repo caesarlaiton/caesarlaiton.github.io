@@ -1,8 +1,10 @@
-baseURL = ""
+baseURL = "https://caesarlaiton.github.io"
 languageCode = "en-us"
 title = "César Laiton's portfolio"
 disableKinds = ["taxonomy", "term"]
 enableRobotsTXT = true
+publishDir = "docs"
+
 [params]
   description = "César Laiton's portfolio."
   images = ["/svg/portfolio.svg"]

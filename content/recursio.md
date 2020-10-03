@@ -17,7 +17,7 @@ stack:
 btns:
   - btn:
       name: "Code"
-      url: "#"
+      url: "https://github.com/caesarlaiton/caesarlaiton.github.io/"
       color: "blue"
 
 _build:

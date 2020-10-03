@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "caesarlaiton",
   "version": "1.0.0",
-  "description": "",
+  "description": "César Laiton's portfolio.",
   "main": "index.js",
   "scripts": {
     "hugo": "hugo --gc --minify"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/caesarlaiton/portfolio.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["portfolio"],
+  "author": "César Laiton",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/caesarlaiton/portfolio/issues"

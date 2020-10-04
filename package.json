@@ -4,7 +4,7 @@
   "description": "César Laiton's portfolio.",
   "main": "index.js",
   "scripts": {
-    "hugo": "hugo --gc --minify"
+    "hugo": "hugo --minify --gc"
   },
   "repository": {
     "type": "git",

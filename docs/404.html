@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-full" lang="en-us">
+<html class="min-h-full" lang="en-us">
 
   <head>
   <meta charset="utf-8">
@@ -75,6 +75,11 @@
 
 </footer>
 
+
+    <script>
+      const anchors = document.querySelectorAll("a");
+      anchors.forEach(anchor => anchor.addEventListener("click", () => anchor.blur()));
+    </script>
 
   </body>
 </html>
